@@ -18,4 +18,8 @@ public class UndirectedGraph {
     public Iterable<Integer> adj(int v) {
         return adj[v];
     }
+
+    public int V() {
+        return V;
+    }
 }
