@@ -15,7 +15,7 @@ public class UndirectedGraph {
         adj[w].add(v);
     }
 
-    public Iterable<Integer> adj_iterator(int v) {
+    public Iterable<Integer> adj(int v) {
         return adj[v];
     }
 }
