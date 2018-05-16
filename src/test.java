@@ -7,7 +7,7 @@ public class test {
         graph.addEdge(2,3);
         graph.addEdge(3,4);
         graph.addEdge(4,5);
-        for (int each: graph.adj_iter(1)) {
+        for (int each: graph.adj_iterator(1)) {
             System.out.println(each);
         }
     }
